@@ -212,13 +212,17 @@ a.active, a:hover{
 }
 .othercontents{
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    display: inline-flex;
+/*    margin-left: 10%;*/
+/*    margin-right: 10%;*/
+/*    display: flex;*/
     position: relative;
+    width: 90%;
 }
 .othercontents a{
     margin-left: 9%;
+}
+.imagedisplay:hover{
+    opacity: 50%;
 }
 
 .post_header{
