@@ -64,7 +64,7 @@
         <h6>hello@akinolapo.com</h6>
     </div>
     <div id="form">
-        <form method="POST" data-netlify="true" style="position: relative;">
+        <form name="General Contact" method="POST" data-netlify="true">
             <h3>Get In<span class="primary_color"> Touch</span></h3>
             <select name="contact_type" size="1" required disabled style="width: 100%;" class="form_control">
                 <option value="general">General Contact</option>
@@ -73,12 +73,12 @@
             <p id="yourname">
             <label for="name">Your Name</label>
             <br>
-            <input type="text" placeholder="John Doe" required class="form_control">
+            <input type="text" name="Full Name" placeholder="John Doe" required class="form_control">
             </p>
             <p id="youremail">
             <label for="email">Your Email</label>
             <br>
-            <input type="email" placeholder="john.doe@mail.com" required class="form_control">
+            <input type="email" name="Email Address" placeholder="john.doe@mail.com" required class="form_control">
             </p>
             <div class="commentbreak">
             <br><br><br><br>
@@ -86,7 +86,7 @@
             <p>
             <label for="message">Your Message</label>
             <br>
-            <textarea placeholder="Your message goes here ...."  cols="20" rows="10" required style="width: 100%; height: auto;" class="form_control"></textarea>
+            <textarea name="Contact Message" placeholder="Your message goes here ...."  cols="20" rows="10" required style="width: 100%; height: auto;" class="form_control"></textarea>
             </p>
             <br>
             <input id="submit" type="submit" value="Send" class="form_control">
