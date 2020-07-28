@@ -19,6 +19,21 @@
         <li></li>
         <li></li>
     </ul>
+    
+    <!--    Search box function-->
+    <script>
+  (function() {
+    var id = '41005a60-d079-11ea-9158-0242ac130002';
+    var ci_search = document.createElement('script');
+    ci_search.type = 'text/javascript';
+    ci_search.async = true;
+    ci_search.src = 'https://cse.expertrec.com/api/js/ci_common.js?id=' + id;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ci_search, s);
+  })();
+</script>
+<!--    End of Search box function-->
+    
 </head>
 
 <body class="area">
@@ -52,7 +67,11 @@
             <br><br>
             <h1>Blog Posts</h1>
         </div>
-        <br><br>
+        <br>
+        <div style=" text-align: center;">
+        <ci-search></ci-search>
+        </div>
+        <br>
        <div class="archive">
               <div class="post1">
                <img class="thumbnail" src="/uploads/images/remote-learning.JPG" title="remote learning" alt="remote learning">
