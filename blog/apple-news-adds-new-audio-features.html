@@ -117,19 +117,19 @@
                 <form class="comment_entry" name="comment" method="POST" data-netlify="true">
                     <p>
                     <label for="name">Name*</label><br>
-                    <input type="text" placeholder="Joe Doe" required style="width: 100%;" class="form_control">
+                    <input type="text" name="Name" placeholder="Joe Doe" required style="width: 100%;" class="form_control">
                     </p>
                     <p>
                     <label for="email">Email*</label><br>
-                    <input type="email" placeholder="joe.doe@mail.com" required style="width: 100%;" class="form_control">
+                    <input type="email" name="Email Address" placeholder="joe.doe@mail.com" required style="width: 100%;" class="form_control">
                     </p>
                     <p>
                     <label for="website">Website</label><br>
-                    <input type="url" placeholder="http://joedoe.com" style="width: 100%;" class="form_control">
+                    <input type="url" name="Website url" placeholder="http://joedoe.com" style="width: 100%;" class="form_control">
                     </p>
                     <p>
                     <label for="comment">Comment*</label><br>
-                    <textarea placeholder="Your comment goes here" required cols="20" rows="10" required style="width: 100%; height: auto;" class="form_control"></textarea>
+                    <textarea name="Comment" placeholder="Your comment goes here" required cols="20" rows="10" required style="width: 100%; height: auto;" class="form_control"></textarea>
                     </p>
                     <input type="submit" value="Post Comment" class="form_control" id="postcomment_btn">
                 </form>
